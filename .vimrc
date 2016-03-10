@@ -18,6 +18,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'tpope/vim-fugitive' "GIT Integration
 Plugin 'scrooloose/syntastic' "Syntax highlighting
+Plugin 'scrooloose/nerdtree'
+Plugin 'trope/vim-surround'
 Plugin 'suan/vim-instant-markdown' " Instant markdown 
 "Instant markdown needs nodejs plugin get it with
 "sudo npm -g install instant-markdown-d
@@ -58,6 +60,9 @@ set autoindent
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+
+"java Linter
+let g:syntastic_java_checker ='javac'
 
 "display tabs and trailing spaces
 set list
