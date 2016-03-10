@@ -18,6 +18,9 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'tpope/vim-fugitive' "GIT Integration
 Plugin 'scrooloose/syntastic' "Syntax highlighting
+Plugin 'suan/vim-instant-markdown' " Instant markdown 
+"Instant markdown needs nodejs plugin get it with
+"sudo npm -g install instant-markdown-d
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
