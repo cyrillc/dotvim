@@ -19,7 +19,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive' "GIT Integration
 Plugin 'scrooloose/syntastic' "Syntax highlighting
 Plugin 'scrooloose/nerdtree'
-Plugin 'trope/vim-surround'
+Plugin 'tpope/vim-surround'
 Plugin 'suan/vim-instant-markdown' " Instant markdown 
 "Instant markdown needs nodejs plugin get it with
 "sudo npm -g install instant-markdown-d
